@@ -1,12 +1,66 @@
-# Python virtual environment
+############################
+# Python
+############################
+# Virtual environments
 .venv/
+venv/
+ENV/
+env/
 
-# Python cache
+# Python cache / compiled files
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 
+# Python packaging
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+############################
+# Node / React
+############################
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build outputs
+build/
+dist/
+**/build/
+**/dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+############################
+# React / CRA specific
+############################
+.coverage/
+.cache/
+
+############################
 # VS Code
+############################
 .vscode/
+.history/
 
+############################
 # OS files
+############################
 .DS_Store
+Thumbs.db
+desktop.ini
+
+############################
+# Environment variables
+############################
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
