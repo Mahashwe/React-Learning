@@ -7,10 +7,13 @@ import Event from './components/event';
 import NameList from './components/namelist';
 import Style_learn from './components/style_learn';
 import Forms from './components/forms';
+import Lifecycle_a from './components/lifecycle_a';
 function App() {
   return (
+
     <div className="App">
-      <Forms />
+      <Lifecycle_a />
+      {/* <Forms /> */}
       {/* <Style_learn /> */}
       {/* <NameList /> */}
       {/* <Greet name="diana" />
