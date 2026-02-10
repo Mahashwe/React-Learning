@@ -17,12 +17,16 @@ import CompoA from './components/CompoA';
 import { UserProvider } from './components/context';
 import PostList from './components/postlist';
 import Postform from './components/postform';
-
+import ClassCounter from './components/classcounter';
+import Hookcounter from './components/hookcounter';
+import Hookcounter2 from './hookcounter2';
 function App() {
   return (
 
     <div className="App">
-      <Postform />
+      <Hookcounter2 />
+      {/* <ClassCounter /> */}
+      {/* <Postform /> */}
       {/* <PostList /> */}
       {/* <UserProvider value="maha">
         <CompoA />
