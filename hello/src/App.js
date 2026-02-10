@@ -8,11 +8,13 @@ import NameList from './components/namelist';
 import Style_learn from './components/style_learn';
 import Forms from './components/forms';
 import Lifecycle_a from './components/lifecycle_a';
+import Refs from './components/Refs';
 function App() {
   return (
 
     <div className="App">
-      <Lifecycle_a />
+      <Refs />
+      {/* <Lifecycle_a /> */}
       {/* <Forms /> */}
       {/* <Style_learn /> */}
       {/* <NameList /> */}
