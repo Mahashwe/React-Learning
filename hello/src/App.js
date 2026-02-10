@@ -15,14 +15,16 @@ import ErrorBoundary from './components/ErrorBoundary';
 import ClickCounter from './components/ClickCounter';
 import CompoA from './components/CompoA';
 import { UserProvider } from './components/context';
+import PostList from './components/postlist';
 
 function App() {
   return (
 
     <div className="App">
-      <UserProvider value="maha">
+      <PostList />
+      {/* <UserProvider value="maha">
         <CompoA />
-      </UserProvider>
+      </UserProvider> */}
       {/* <ClickCounter /> */}
       {/* <ErrorBoundary>
         <Error heroname="batman" />
