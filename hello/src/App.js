@@ -12,16 +12,19 @@ import Refs from './components/Refs';
 import Portal from './components/portal';
 import Error from './components/error';
 import ErrorBoundary from './components/ErrorBoundary';
+import ClickCounter from './components/ClickCounter';
+
 function App() {
   return (
 
     <div className="App">
-      <ErrorBoundary>
+      <ClickCounter />
+      {/* <ErrorBoundary>
         <Error heroname="batman" />
       </ErrorBoundary>
       <ErrorBoundary>
-        <Error heroname="joker" />
-      </ErrorBoundary>
+        <Error heroname="joker" /> */}
+      {/* </ErrorBoundary> */}
       {/* <Portal /> */}
       {/* <Refs /> */}
       {/* <Lifecycle_a /> */}
