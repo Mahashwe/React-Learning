@@ -24,12 +24,14 @@ import Hookcounter3 from './components/hookcounter3';
 import Hook from './components/hook';
 import Hookmouse from './components/hookmouse';
 import Timer from './components/timer';
+import DataFetch from './datafetch';
 
 function App() {
   return (
 
     <div className="App">
-      <Timer />
+      <DataFetch />
+      {/* <Timer /> */}
       {/* <Hookmouse /> */}
       {/* <Hookcounter3 /> */}
       {/* <Hook /> */}
