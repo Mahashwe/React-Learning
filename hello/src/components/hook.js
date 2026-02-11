@@ -6,7 +6,7 @@ function Hook() {
 
     useEffect(() => {
         document.title = `You clicked ${count} times`
-    })
+    }, [count]) //only run the useEffect when count changes
 
     return (
         <div><button onClick={() => setCount(count + 1)}>Count {count}</button></div>
