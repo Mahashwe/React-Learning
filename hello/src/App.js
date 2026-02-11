@@ -25,6 +25,8 @@ import Hook from './components/hook';
 import Hookmouse from './components/hookmouse';
 import Timer from './components/timer';
 import DataFetch from './datafetch';
+import Counternew from './components/reducer';
+import Trail from './components/trail';
 import React from 'react';
 
 export const user = React.createContext()
@@ -34,19 +36,21 @@ function App() {
   return (
 
     <div className="App">
+      {/* <Counternew /> */}
       {/* <DataFetch /> */}
       {/* <Timer /> */}
       {/* <Hookmouse /> */}
       {/* <Hookcounter3 /> */}
       {/* <Hook /> */}
       {/* <ClassCounter /> */}
+      <Trail />
       {/* <Postform /> */}
       {/* <PostList /> */}
-      <user.Provider value="maha">
+      {/* <user.Provider value="maha">
         <channel.Provider value="react">
           <CompoA />
         </channel.Provider>
-      </user.Provider>
+      </user.Provider> */}
       {/* <ClickCounter /> */}
       {/* <ErrorBoundary>
         <Error heroname="batman" />
