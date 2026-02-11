@@ -28,6 +28,7 @@ import Data from './components/datafetch1';
 import Counternew from './components/reducer';
 import Trail from './components/trail';
 import React from 'react';
+import Focus from './components/focus';
 
 export const user = React.createContext()
 export const channel = React.createContext()
@@ -36,7 +37,8 @@ function App() {
   return (
 
     <div className="App">
-      <Data />
+      <Focus />
+      {/* <Data /> */}
       {/* <Counternew /> */}
       {/* <DataFetch /> */}
       {/* <Timer /> */}
