@@ -20,11 +20,12 @@ import Postform from './components/postform';
 import ClassCounter from './components/classcounter';
 import Hookcounter from './components/hookcounter';
 import Hookcounter2 from './hookcounter2';
+import Hookcounter3 from './components/hookcounter3';
 function App() {
   return (
 
     <div className="App">
-      <Hookcounter2 />
+      <Hookcounter3 />
       {/* <ClassCounter /> */}
       {/* <Postform /> */}
       {/* <PostList /> */}
