@@ -29,6 +29,8 @@ import Counternew from './components/reducer';
 import Trail from './components/trail';
 import React from 'react';
 import Focus from './components/focus';
+import NewCount from './components/newcount';
+import NewCounttwo from './components/newcounttwo';
 
 export const user = React.createContext()
 export const channel = React.createContext()
@@ -37,7 +39,9 @@ function App() {
   return (
 
     <div className="App">
-      <Focus />
+      <NewCounttwo />
+      <NewCount />
+      {/* <Focus /> */}
       {/* <Data /> */}
       {/* <Counternew /> */}
       {/* <DataFetch /> */}
